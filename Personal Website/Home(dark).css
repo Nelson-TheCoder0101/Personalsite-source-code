@@ -1,0 +1,69 @@
+body{
+	animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+	from{
+		opacity: 0;
+		transform: translateY(-10px);
+		transform: translateX(-10px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0);
+		transform: translateX(0);
+	}
+}
+
+#logo{
+	object-position:left top;
+}
+img{
+	float: left;
+}
+h1{
+	text-align:center;
+	color: #EDEDED;
+	font-family: 'Noto Serif', serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+	color: #EDEDED;
+	
+}
+body{
+	background-image: url("Home(dark).jpg");
+	background-size: cover;
+}
+button{
+	background-color: #A5C9CA;
+	color: #2C3333;
+	border: none;
+	border-radius: 100px;
+	height: 50px;
+	width: 200px;
+	box-shadow: inset 0 0 0 #395B64;
+	transition: ease-out 0.5s;
+	font-size: 20px;
+	font-family: 'Noto Serif', serif;
+	margin: 30px;
+}
+button:hover{
+	box-shadow: inset 300px 0 0 0 #E7F6F2;
+	cursor: pointer;
+}
+
+#container{
+	text-align: left;
+}
+#container1{
+	text-align: left;
+}
+#container2{
+	text-align: left;
+}
+#container3{
+	text-align: left;
+}
+

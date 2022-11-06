@@ -1,0 +1,51 @@
+body{
+	animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+	from{
+		opacity: 0;
+		transform: translateY(-10px);
+		transform: translateX(-10px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0);
+		transform: translateX(0);
+	}
+}
+h1{
+	vertical-align: middle;
+	text-align:center;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+h2{
+	vertical-align: middle;
+	text-align:center;
+	color: #3f4765;
+	font-family: 'Roboto', sans-serif;
+	
+	
+	
+}
+body{
+	background-image: url("Start(dark).jpg");
+	background-size: cover;
+	
+}
+a:link{
+	
+	color: #C6CDDD;
+	text-decoration: none;
+}
+a:visited{
+	color: #7895B2 ;
+}
+a:hover{
+	color: #AEBDCA ;
+}
